@@ -1,0 +1,25 @@
+<!--
+	=====================
+		Templates/Personnel/Students.html
+-->
+
+<table class="table table-striped display">
+	<thead>
+		<tr>
+			<th scope="col"><f:translate key="tx_showmi_domain_model_personnel.surname"/></th>
+			<th scope="col"><f:translate key="tx_showmi_domain_model_personnel.name"/></th>
+			<th scope="col"><f:translate key="tx_showmi_domain_model_personnel.program"/></th>
+			<th scope="col"><f:translate key="tx_showmi_domain_model_personnel.supervisor"/></th>
+		</tr>
+	</thead>
+	<tbody>
+	<f:for each="{persons}" as="person">
+		<tr onclick="document.location.href='<f:uri.action action="singleStudent" arguments="{person: person}" pageUid="{settings.detailPid}"></f:uri.action>'" style="cursor:pointer;">
+			<td>{person.surname}</td>
+			<td>{person.name}</td>
+			<td>{person.program}</td>
+			<td>{person.supervisor}</td>
+		</tr>
+	</f:for>
+	</tbody>
+</table>

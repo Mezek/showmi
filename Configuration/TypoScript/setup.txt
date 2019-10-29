@@ -1,0 +1,14 @@
+# ==============================================
+# FE-Plugin configuration for EXT:showmi
+# ==============================================
+plugin.tx_showmi {
+
+	# ====================================
+	# Settings available inside Controller and View by accessing $this->settings or {settings.xyz}
+	# ====================================
+	settings {
+		department = {$plugin.tx_showmi.settings.department}
+		detailPid = {$plugin.tx_showmi.settings.detailPid}
+		# cssFile = {$plugin.tx_showmi.settings.cssFile}
+	}
+}

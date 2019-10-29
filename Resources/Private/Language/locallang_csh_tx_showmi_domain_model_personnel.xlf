@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-10-20T14:08:36Z" product-name="showmi">
+		<header/>
+		<body>
+			<trans-unit id="sasid.description">
+				<source>sasid</source>
+			</trans-unit>
+			<trans-unit id="orcid.description">
+				<source>orcid</source>
+			</trans-unit>
+			<trans-unit id="arlid.description">
+				<source>arlid</source>
+			</trans-unit>
+			<trans-unit id="name.description">
+				<source>name</source>
+			</trans-unit>
+			<trans-unit id="surname.description">
+				<source>surname</source>
+			</trans-unit>
+			<trans-unit id="title.description">
+				<source>title</source>
+			</trans-unit>
+			<trans-unit id="email.description">
+				<source>email</source>
+			</trans-unit>
+			<trans-unit id="status.description">
+				<source>status</source>
+			</trans-unit>			
+			<trans-unit id="department.description">
+				<source>department</source>
+			</trans-unit>
+			<trans-unit id="function.description">
+				<source>function</source>
+			</trans-unit>
+			<trans-unit id="function_en.description">
+				<source>functionEn</source>
+			</trans-unit>
+			<trans-unit id="phone.description">
+				<source>phone</source>
+			</trans-unit>
+			<trans-unit id="doors.description">
+				<source>doors</source>
+			</trans-unit>
+			<trans-unit id="building.description">
+				<source>building</source>
+			</trans-unit>
+			<trans-unit id="phd_student.description">
+				<source>phdStudent</source>
+			</trans-unit>
+			<trans-unit id="program.description">
+				<source>program</source>
+			</trans-unit>
+			<trans-unit id="supervisor.description">
+				<source>supervisor</source>
+			</trans-unit>
+			<trans-unit id="theme.description">
+				<source>theme</source>
+			</trans-unit>
+			<trans-unit id="defense.description">
+				<source>defense</source>
+			</trans-unit>
+			<trans-unit id="webpage.description">
+				<source>webpage</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

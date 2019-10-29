@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-10-25T16:44:04Z" product-name="showmi">
+		<header/>
+		<body>
+			<trans-unit id="tx_showmi_domain_model_activity" xml:space="preserve">
+				<source>Activity</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_activity.sender_name" xml:space="preserve">
+				<source>Sender Name</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_activity.sender_email" xml:space="preserve">
+				<source>Sender Email</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_activity.date" xml:space="preserve">
+				<source>Date</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_activity.author" xml:space="preserve">
+				<source>Author</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_activity.type" xml:space="preserve">
+				<source>Type</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_activity.place" xml:space="preserve">
+				<source>Place</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_activity.title" xml:space="preserve">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_activity.weblink" xml:space="preserve">
+				<source>Web link</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_activity.author_link" xml:space="preserve">
+				<source>Author Link</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel" xml:space="preserve">
+				<source>Personnel</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.sasid" xml:space="preserve">
+				<source>Sasid</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.orcid" xml:space="preserve"> 
+				<source>Orcid</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.arlid" xml:space="preserve">
+				<source>Arlid</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.name" xml:space="preserve">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.surname" xml:space="preserve">
+				<source>Surname</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.title" xml:space="preserve">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.email" xml:space="preserve">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.status" xml:space="preserve">
+				<source>Status</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.department" xml:space="preserve">
+				<source>Department</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.function" xml:space="preserve">
+				<source>Function</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.function_en" xml:space="preserve">
+				<source>Function En</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.phone" xml:space="preserve">
+				<source>Phone</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.doors" xml:space="preserve">
+				<source>Doors</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.building" xml:space="preserve">
+				<source>Building</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.phd_student" xml:space="preserve">
+				<source>Phd Student</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.program" xml:space="preserve">
+				<source>Program</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.supervisor" xml:space="preserve">
+				<source>Supervisor</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.theme" xml:space="preserve">
+				<source>PhD thesis</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.defense" xml:space="preserve">
+				<source>Year of defense</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.webpage" xml:space="preserve">
+				<source>Webpage</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.autoreferat" xml:space="preserve">
+				<source>Autoreferat</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.infopage" xml:space="preserve">
+				<source>Information Page of SAS Employee</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic" xml:space="preserve">
+				<source>Topic</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.program" xml:space="preserve">
+				<source>Program</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.supervisor_link" xml:space="preserve">
+				<source>Supervisor Link</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.title_sk" xml:space="preserve">
+				<source>Title SK</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.title_en" xml:space="preserve">
+				<source>Title EN</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.title_theme" xml:space="preserve">
+				<source>Title of PhD theme</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.annotation_sk" xml:space="preserve">
+				<source>Annotation SK</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.annotation_en" xml:space="preserve">
+				<source>Annotation EN</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.annotation" xml:space="preserve">
+				<source>Annotation</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.contact" xml:space="preserve">
+				<source>Contact</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.note" xml:space="preserve">
+				<source>Note</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

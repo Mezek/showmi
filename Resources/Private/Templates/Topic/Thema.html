@@ -1,0 +1,59 @@
+<!--
+	=====================
+		Templates/Topic/Thema.html
+-->
+
+<ol>
+	<f:for each="{thema}" as="thema">
+		<li>
+		<f:for each="{persons}" as="person">
+			<f:if condition="{thema.supervisorLink} == {person.uid}">
+			<f:then>		
+			<div onclick="toggleShowHide({thema.uid})" class="cursor-pointer">
+			<f:if condition="{f:cObject(typoscriptObjectPath: 'lib.language')} == 'sk'">
+			<f:then>
+				<div id="th{thema.uid}" class="thema-toggle-plus"><strong>{person.surname}, {person.name}: {thema.titleSk}</strong></div>
+				<div class="thema-toggle">({thema.titleEn})</div>
+			</f:then>
+			<f:else>
+				<div id="th{thema.uid}" class="thema-toggle-plus"><strong>{person.surname}, {person.name}: {thema.titleEn}</strong></div>
+				<div class="thema-toggle">({thema.titleSk})</div>
+			</f:else>
+			</f:if>			
+			</div>
+			<div id="{thema.uid}" class="thema-container" style="display: none;">
+				&mdash;
+				<div class="thema-supervisor">
+					<strong><f:translate key="tx_showmi_domain_model_personnel.supervisor"/>: </strong>{person.surname}, {person.name}, {person.title}
+				</div>
+				<div class="thema-contact">
+					<strong><f:translate key="tx_showmi_domain_model_topic.contact"/>: </strong><f:link.email email="{person.email}" />
+				</div>
+			</f:then>
+			</f:if>
+		</f:for>
+				<div class="thema-abstract">
+					<strong><f:translate key="tx_showmi_domain_model_topic.annotation"/>: </strong><br />
+					<f:if condition="{f:cObject(typoscriptObjectPath: 'lib.language')} == 'sk'">
+					<f:then>
+						<f:format.html>{thema.annotationSk}</f:format.html>
+					</f:then>
+					<f:else>
+						<f:format.html>{thema.annotationEn}</f:format.html>
+					</f:else>
+					</f:if>
+				</div>
+				<f:if condition="{thema.note}">
+				<f:then>
+				<div class="thema-note">
+					<strong><f:translate key="tx_showmi_domain_model_topic.note"/>: </strong>{thema.note}
+				</div>
+				</f:then>
+				<f:else>
+				<div>&nbsp;</div>
+				</f:else>
+				</f:if>
+			</div>
+		</li>
+	</f:for>
+</ol>

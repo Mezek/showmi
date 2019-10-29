@@ -1,0 +1,37 @@
+<!--
+	=====================
+		Templates/Personnel/SingleDefense.html
+-->
+
+<table class="table table-striped">
+	<tbody>
+		<tr>
+			<td scope="row"><strong><f:translate key="tx_showmi_domain_model_personnel.name"/></strong></td>
+			<td>{person.name}</td>
+		</tr>
+		<tr>
+			<td><strong><f:translate key="tx_showmi_domain_model_personnel.surname"/></strong></td>
+			<td>{person.surname}</td>
+		</tr>
+		<tr>
+			<td><strong><f:translate key="tx_showmi_domain_model_personnel.program"/></strong></td>
+			<td>{person.program}</td>
+		</tr>
+		<tr>
+			<td><strong><f:translate key="tx_showmi_domain_model_personnel.supervisor"/></strong></td>
+			<td>{person.supervisor}</td>
+		</tr>
+		<tr>
+			<td><strong><f:translate key="tx_showmi_domain_model_personnel.theme"/></strong></td>
+			<td>{person.theme}</td>
+		</tr>
+		<tr>
+			<td><strong><f:translate key="tx_showmi_domain_model_personnel.defense"/></strong></td>
+			<td>{person.defense}</td>
+		</tr>
+		<tr>
+			<td><strong><f:translate key="tx_showmi_domain_model_personnel.autoreferat"/></strong></td>
+			<td><a href="fileadmin/user_upload/obsah/dokumenty/studium/doktorandi/autoreferaty/autoreferat_{person.webpage}.pdf">PDF version</a></td>
+		</tr>
+	</tbody>
+</table>

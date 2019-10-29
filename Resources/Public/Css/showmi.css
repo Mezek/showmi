@@ -1,0 +1,22 @@
+/* Showmi plugin */
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.thema-toggle-plus {
+	background: url(/typo3conf/ext/showmi/Resources/Public/Images/plus.png) no-repeat left center;
+	cursor: pointer;
+	padding: 0 0 0 27px;
+}
+
+.thema-toggle-minus {
+	background: url(/typo3conf/ext/showmi/Resources/Public/Images/min.png) no-repeat left center;
+	cursor: pointer;
+	padding: 0 0 0 27px;	
+}
+
+.thema-toggle {
+	cursor: pointer;
+	padding: 0 0 0 27px;	
+}

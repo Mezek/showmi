@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-10-25T16:44:04Z" product-name="showmi">
+		<header/>
+		<body>
+			<trans-unit id="program.description">
+				<source>program</source>
+			</trans-unit>
+			<trans-unit id="supervisor_link.description">
+				<source>supervisorLink</source>
+			</trans-unit>
+			<trans-unit id="title_sk.description">
+				<source>titleSk</source>
+			</trans-unit>
+			<trans-unit id="title_en.description">
+				<source>titleEn</source>
+			</trans-unit>
+			<trans-unit id="annotation_sk.description">
+				<source>annotationSk</source>
+			</trans-unit>
+			<trans-unit id="annotation_en.description">
+				<source>annotationEn</source>
+			</trans-unit>
+			<trans-unit id="note.description">
+				<source>note</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

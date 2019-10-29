@@ -1,0 +1,7 @@
+plugin.tx_showmi {
+	settings {
+		department = None
+		detailPid = 
+		# cssFile = EXT:showmi/Resources/Public/Css/showmi.css
+	}
+}

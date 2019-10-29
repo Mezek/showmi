@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-10-25T16:44:04Z" product-name="showmi">
+		<header/>
+		<body>
+			<trans-unit id="sender_name.description">
+				<source>senderName</source>
+			</trans-unit>
+			<trans-unit id="sender_email.description">
+				<source>senderEmail</source>
+			</trans-unit>
+			<trans-unit id="date.description">
+				<source>date</source>
+			</trans-unit>
+			<trans-unit id="author.description">
+				<source>author</source>
+			</trans-unit>
+			<trans-unit id="type.description">
+				<source>type</source>
+			</trans-unit>
+			<trans-unit id="place.description">
+				<source>place</source>
+			</trans-unit>
+			<trans-unit id="title.description">
+				<source>title</source>
+			</trans-unit>
+			<trans-unit id="weblink.description">
+				<source>weblink</source>
+			</trans-unit>
+			<trans-unit id="author_link.description">
+				<source>authorLink</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

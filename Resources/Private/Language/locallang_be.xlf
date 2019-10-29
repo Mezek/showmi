@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-10-23T19:32:36Z" product-name="showmi">	
+		<header/>
+		<body>
+			<trans-unit id="pi1_title" xml:space="preserve">
+				<source>Showmi List</source>
+			</trans-unit>		
+			<trans-unit id="flexforms_tab.general" xml:space="preserve">
+				<source>Settings</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.mode" xml:space="preserve">
+				<source>What to display</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.mode.list_staff" xml:space="preserve">
+				<source>List Current staff</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.mode.list_department" xml:space="preserve">
+				<source>List Department staff</source>
+			</trans-unit>			
+			<trans-unit id="flexforms_general.mode.list_students" xml:space="preserve">
+				<source>List PhD students</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.mode.list_defense" xml:space="preserve">
+				<source>List Defenses</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.mode.single_person" xml:space="preserve">
+				<source>Single Person</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.mode.single_student" xml:space="preserve">
+				<source>Single Student</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.mode.single_defense" xml:space="preserve">
+				<source>Single Defense</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.mode.list_activities" xml:space="preserve">
+				<source>List Activities</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.mode.list_internet_activities" xml:space="preserve">
+				<source>List Internet activities</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.mode.list_themes" xml:space="preserve">
+				<source>List Themes</source>
+			</trans-unit>
+			<trans-unit id="flexforms_tab.sas" xml:space="preserve">
+				<source>Departments</source>
+			</trans-unit>
+			<trans-unit id="flexforms_sas.department" xml:space="preserve">
+				<source>Department of Institute of Physics</source>
+			</trans-unit>
+			<trans-unit id="flexforms_sas.department.cvki" xml:space="preserve">
+				<source>Centrum pre výskum kvantovej informácie</source>
+			</trans-unit>
+			<trans-unit id="flexforms_sas.department.ofk" xml:space="preserve">
+				<source>Oddelenie fyziky kovov</source>
+			</trans-unit>
+			<trans-unit id="flexforms_sas.department.ojf" xml:space="preserve">
+				<source>Oddelenie jadrovej fyziky</source>
+			</trans-unit>
+			<trans-unit id="flexforms_sas.department.okfs" xml:space="preserve">
+				<source>Oddelenie komplexných fyzikálnych systémov</source>
+			</trans-unit>
+			<trans-unit id="flexforms_sas.department.omn" xml:space="preserve">
+				<source>Oddelenie multivrstiev a nanoštruktúr</source>
+			</trans-unit>
+			<trans-unit id="flexforms_sas.department.otf" xml:space="preserve">
+				<source>Oddelenie teoretickej fyziky</source>
+			</trans-unit>
+			<trans-unit id="flexforms_sas.department.e" xml:space="preserve">
+				<source>Emeritní pracovníci</source>
+			</trans-unit>
+			<trans-unit id="flexforms_tab.additional" xml:space="preserve">
+				<source>Additional</source>
+			</trans-unit>
+			<trans-unit id="flexforms_additional.detailPid" xml:space="preserve">
+				<source>PageId for single display</source>
+			</trans-unit>
+			<trans-unit id="flexforms_tab.study" xml:space="preserve">
+				<source>Study program</source>
+			</trans-unit>
+			<trans-unit id="flexforms_study.program" xml:space="preserve">
+				<source>Which study program</source>
+			</trans-unit>
+			<trans-unit id="flexforms_study.4.1.2" xml:space="preserve">
+				<source>Teoretická fyzika a matematická fyzika (4.1.2)</source>
+			</trans-unit>
+			<trans-unit id="flexforms_study.4.1.3" xml:space="preserve">
+				<source>Fyzika kondenzovaných látok a akustika (4.1.3)</source>
+			</trans-unit>
+			<trans-unit id="flexforms_study.4.1.4" xml:space="preserve">
+				<source>Kvantová elektronika a optika a optická spektroskopia (4.1.4)</source>
+			</trans-unit>
+			<trans-unit id="flexforms_study.4.1.5" xml:space="preserve">
+				<source>Jadrová a subjadrová fyzika (4.1.5)</source>
+			</trans-unit>
+			<trans-unit id="flexforms_study.5.2.48" xml:space="preserve">
+				<source>Fyzikálne inžinierstvo (5.2.48)</source>
+			</trans-unit>
+			<trans-unit id="flexforms_study.MSc" xml:space="preserve">
+				<source>Magisterská téma (MSc)</source>
+			</trans-unit>
+			<trans-unit id="flexforms_study.Bc" xml:space="preserve">
+				<source>Bakalárska téma (Bc)</source>
+			</trans-unit>
+			<trans-unit id="flexforms_study.SVOC" xml:space="preserve">
+				<source>Téma ŠVOČ práce (SVOC)</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

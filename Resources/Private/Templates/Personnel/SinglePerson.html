@@ -1,0 +1,73 @@
+<!--
+	=====================
+		Templates/Personnel/SinglePerson.html
+-->
+
+<table class="table table-striped">
+	<tbody>
+		<tr>
+			<td scope="row"><strong><f:translate key="tx_showmi_domain_model_personnel.name"/></strong></td>
+			<td>{person.name}</td>
+		</tr>
+		<tr>
+			<td><strong><f:translate key="tx_showmi_domain_model_personnel.surname"/></strong></td>
+			<td>{person.surname}</td>
+		</tr>
+		<tr>
+			<td><strong><f:translate key="tx_showmi_domain_model_personnel.title"/></strong></td>
+			<td>{person.title}</td>
+		</tr>
+		<tr>
+			<td><strong><f:translate key="tx_showmi_domain_model_personnel.email"/></strong></td>
+			<td><f:link.email email="{person.email}" /></td>
+		</tr>
+		<tr>
+			<td><strong><f:translate key="tx_showmi_domain_model_personnel.orcid"/></strong></td>
+			<td>
+				<f:if condition="{person.orcid}">
+				<f:then>
+					<f:link.external uri="https://orcid.org/{person.orcid}"> <img src="fileadmin/templates/images/orcid_icon.png" alt="ORCID" />&nbsp;{person.orcid}</f:link.external>
+				</f:then>
+				<f:else>
+					&mdash;
+				</f:else>
+				</f:if>
+			</td>
+		</tr>
+		<tr>
+			<td><strong><f:translate key="tx_showmi_domain_model_personnel.function"/></strong></td>
+			<td>
+				<f:if condition="{f:cObject(typoscriptObjectPath: 'lib.language')} == 'sk'">
+				<f:then>
+					{person.function}
+				</f:then>
+				<f:else>
+					{person.functionEn}
+				</f:else>
+				</f:if>			
+			</td>
+		</tr>
+		<tr>
+			<td><strong><f:translate key="tx_showmi_domain_model_personnel.department"/></strong></td>
+			<td>{person.department}</td>
+		</tr>
+		<tr>
+			<td><strong><f:translate key="tx_showmi_domain_model_personnel.phone"/></strong></td>
+			<td>{person.phone}</td>
+		</tr>
+		<tr>
+			<td><strong><f:translate key="tx_showmi_domain_model_personnel.doors"/></strong></td>
+			<td>{person.doors}</td>
+		</tr>
+		<tr>
+			<td><strong><f:translate key="tx_showmi_domain_model_personnel.building"/></strong></td>
+			<td>{person.building}</td>
+		</tr>
+		<tr>
+			<td><strong><f:translate key="tx_showmi_domain_model_personnel.webpage"/></strong></td>
+			<td><a class="myclass" title="www" href="https://www.sav.sk/?lang=sk&doc=user-org-user&user_no={person.sasid}"><f:translate key="tx_showmi_domain_model_personnel.infopage"/></a>
+
+</td>
+		</tr>
+	</tbody>
+</table>

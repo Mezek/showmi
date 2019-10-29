@@ -1,0 +1,38 @@
+<!--
+	=====================
+		Templates/Activity/List.html
+-->
+
+<table class="display">
+	<thead>
+		<tr>
+			<th><f:translate key="tx_showmi_domain_model_activity.title"/></th>
+			<th><f:translate key="tx_showmi_domain_model_activity.place"/></th>
+			<th><f:translate key="tx_showmi_domain_model_activity.type"/></th>
+		</tr>
+	</thead>
+	<tbody>
+	<f:for each="{activities}" as="activity">
+		<tr>
+			<td>
+				<span><f:format.date format="Y-m-d">{activity.date}</f:format.date></span><br>
+				<span><b>{activity.author}:&nbsp;</b></span> 
+				<span>{activity.title}</span>
+			</td>
+			<td>
+				<span>
+				<f:if condition="{activity.weblink}">
+				<f:then>
+					<a href="{activity.weblink}">{activity.place}</a>
+				</f:then>
+				<f:else>
+				</f:else>
+					{activity.place}
+				</f:if>
+				</span>
+			</td>
+			<td>{activity.type}</td>
+		</tr>
+	</f:for>
+	</tbody>
+</table>

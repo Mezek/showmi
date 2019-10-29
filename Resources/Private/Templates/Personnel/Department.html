@@ -1,0 +1,46 @@
+<!--
+	=====================
+		Templates/Personnel/Department.html
+-->
+
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th scope="col"><f:translate key="tx_showmi_domain_model_personnel.surname"/></th>
+			<th scope="col"><f:translate key="tx_showmi_domain_model_personnel.name"/></th>
+			<th scope="col"><f:translate key="tx_showmi_domain_model_personnel.email"/></th>
+			<th scope="col"><f:translate key="tx_showmi_domain_model_personnel.phone"/></th>
+			<th scope="col"><f:translate key="tx_showmi_domain_model_personnel.orcid"/></th>
+			<th scope="col"><f:translate key="tx_showmi_domain_model_personnel.function"/></th>
+		</tr>
+	</thead>
+	<tbody>
+	<f:for each="{persons}" as="person">
+		<tr>
+			<td scope="row" class="saslink" onclick="document.location.href='https://www.sav.sk/index.php?lang=sk&doc=user-org-user&user_no={person.sasid}'">{person.surname}</td>
+			<td class="saslink" onclick="document.location.href='<f:uri.action action="singlePerson" arguments="{person: person}" pageUid="{settings.detailPid}"></f:uri.action>'" style="cursor:pointer;">{person.name}</td>
+			<td><f:link.email email="{person.email}" /></td>
+			<td>{person.phone}</td>
+			<td>
+				<f:if condition="{person.orcid}">
+				<f:then>
+					<a href="https://orcid.org/{person.orcid}" alt="orcid.org"><img src="fileadmin/templates/images/orcid_icon.png" alt="ORCID">
+				</f:then>
+				<f:else>
+				</f:else>
+				</f:if>
+			</td>
+			<td>
+				<f:if condition="{f:cObject(typoscriptObjectPath: 'lib.language')} == 'sk'">
+				<f:then>
+					{person.function}
+				</f:then>
+				<f:else>
+					{person.functionEn}
+				</f:else>
+				</f:if>
+			</td>
+		</tr>
+	</f:for>
+	</tbody>
+</table>

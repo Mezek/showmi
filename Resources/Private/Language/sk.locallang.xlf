@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-10-20T14:08:36Z" product-name="showmi">
+		<header/>
+		<body>
+			<trans-unit id="tx_showmi_domain_model_activity" xml:space="preserve">
+				<source>Activity</source>
+				<target>Aktivita</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_activity.sender_name" xml:space="preserve">
+				<source>Sender Name</source>
+				<target>Meno zasielateľa</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_activity.sender_email" xml:space="preserve">
+				<source>Sender Email</source>
+				<target>Email zasielateľa</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_activity.date" xml:space="preserve">
+				<source>Date</source>
+				<target>Dátum</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_activity.author" xml:space="preserve">
+				<source>Author</source>
+				<target>Autor</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_activity.type" xml:space="preserve">
+				<source>Type</source>
+				<target>Typ</target>        
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_activity.place" xml:space="preserve">
+				<source>Place</source>
+				<target>Miesto</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_activity.title" xml:space="preserve">
+				<source>Title</source>
+				<target>Názov</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_activity.weblink" xml:space="preserve">
+				<source>Web link</source>
+				<target>Webový link</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_activity.author_link" xml:space="preserve">
+				<source>Author Link</source>
+				<target>Autorský link</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel" xml:space="preserve">
+				<source>Personnel</source>
+				<target>Zamestnanci</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.sasid" xml:space="preserve">
+				<source>SASid</source>
+				<target>SAVid</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.orcid" xml:space="preserve"> 
+				<source>ORCID</source>
+				<target>ORCID</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.arlid" xml:space="preserve">
+				<source>ARLid</source>
+				<target>ARLid</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.name" xml:space="preserve">
+				<source>Name</source>
+				<target>Meno</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.surname" xml:space="preserve">
+				<source>Surname</source>
+				<target>Priezvisko</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.title" xml:space="preserve">
+				<source>Title</source>
+				<target>Titul</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.email" xml:space="preserve">
+				<source>Email</source>
+				<target>Email</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.status" xml:space="preserve">
+				<source>Status</source>
+				<target>Stav</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.department" xml:space="preserve">
+				<source>Department</source>
+				<target>Oddelenie</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.function" xml:space="preserve">
+				<source>Function</source>
+				<target>Pozícia</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.function_en" xml:space="preserve">
+				<source>Function En</source>
+				<target>Pozícia En</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.phone" xml:space="preserve">
+				<source>Phone</source>
+				<target>Telefón</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.doors" xml:space="preserve">
+				<source>Doors</source>
+				<target>Miestnosť</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.building" xml:space="preserve">
+				<source>Building</source>
+				<target>Budova</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.phd_student" xml:space="preserve">
+				<source>Phd Student</source>
+				<target>Doktorand</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.program" xml:space="preserve">
+				<source>Program</source>
+				<target>Program</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.supervisor" xml:space="preserve">
+				<source>Supervisor</source>
+				<target>Školiteľ</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.theme" xml:space="preserve">
+				<source>PhD thesis</source>
+				<target>Téma práce</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.defense" xml:space="preserve">
+				<source>Year of defense</source>
+				<target>Rok obhajoby</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.webpage" xml:space="preserve">
+				<source>Webpage</source>
+				<target>Webstránka</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.autoreferat" xml:space="preserve">
+				<source>Autoreferat</source>
+				<target>Autoreferát</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_personnel.infopage" xml:space="preserve">
+				<source>Information Page of SAS Employee</source>
+				<target>Informačná stránka zamestnanca SAV</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic" xml:space="preserve">
+				<source>Topic</source>
+				<target>Téma</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.program" xml:space="preserve">
+				<source>Program</source>
+				<target>Program</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.supervisor_link" xml:space="preserve">
+				<source>Supervisor Link</source>
+				<target>Link na školiteľa</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.title_sk" xml:space="preserve">
+				<source>Title SK</source>
+				<target>Názov SK</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.title_en" xml:space="preserve">
+				<source>Title EN</source>
+				<target>Názov EN</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.title_theme" xml:space="preserve">
+				<source>Title of PhD theme</source>
+				<target>Názov témy</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.annotation_sk" xml:space="preserve">
+				<source>Annotation SK</source>
+				<target>Anotácia SK</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.annotation_en" xml:space="preserve">
+				<source>Annotation EN</source>
+				<target>Anotácia EN</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.annotation" xml:space="preserve">
+				<source>Annotation</source>
+				<target>Anotácia</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.contact" xml:space="preserve">
+				<source>Contact</source>
+				<target>Kontakt</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.note" xml:space="preserve">
+				<source>Note</source>
+				<target>Poznámka</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

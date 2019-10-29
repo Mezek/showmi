@@ -1,0 +1,35 @@
+<!--
+	=====================
+		Templates/Personnel/SingleStudent.html
+-->
+
+<table class="table table-striped">
+	<tbody>
+		<tr>
+			<td scope="row"><strong><f:translate key="tx_showmi_domain_model_personnel.name"/></strong></td>
+			<td>{person.name}</td>
+		</tr>
+		<tr>
+			<td><strong><f:translate key="tx_showmi_domain_model_personnel.surname"/></strong></td>
+			<td>{person.surname}</td>
+		</tr>
+		<tr>
+			<td><strong><f:translate key="tx_showmi_domain_model_personnel.program"/></strong></td>
+			<td>{person.program}</td>
+		</tr>
+		<tr>
+			<td><strong><f:translate key="tx_showmi_domain_model_personnel.supervisor"/></strong></td>
+			<td>{person.supervisor}</td>
+		</tr>
+		<tr>
+			<td><strong><f:translate key="tx_showmi_domain_model_personnel.theme"/></strong></td>
+			<td>{person.theme}</td>
+		</tr>
+		<tr>
+			<td><strong><f:translate key="tx_showmi_domain_model_personnel.webpage"/></strong></td>
+			<td><a class="myclass" title="www" href="https://www.sav.sk/?lang=sk&doc=user-org-user&user_no={person.sasid}"><f:translate key="tx_showmi_domain_model_personnel.infopage"/></a>
+
+</td>
+		</tr>
+	</tbody>
+</table>
