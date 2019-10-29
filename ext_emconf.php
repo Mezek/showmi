@@ -12,7 +12,7 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Showmi List',
-    'description' => 'Show database data as formated listings',
+    'description' => 'Show database data as formatted listings',
     'category' => 'plugin',
     'author' => 'Erik Bartoš',
     'author_email' => 'erik.bartos@gmail.com',
@@ -20,7 +20,7 @@ $EM_CONF[$_EXTKEY] = [
     'uploadfolder' => 0,
     'createDirs' => '',
     'clearCacheOnLoad' => 0,
-    'version' => '1.1.7',
+    'version' => '1.1.8',
     'constraints' => [
         'depends' => [
             'typo3' => '8.7.0-8.7.99',
