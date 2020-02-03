@@ -138,6 +138,9 @@
 			<trans-unit id="tx_showmi_domain_model_topic.annotation" xml:space="preserve">
 				<source>Annotation</source>
 			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.literature" xml:space="preserve">
+				<source>References</source>
+			</trans-unit>
 			<trans-unit id="tx_showmi_domain_model_topic.contact" xml:space="preserve">
 				<source>Contact</source>
 			</trans-unit>

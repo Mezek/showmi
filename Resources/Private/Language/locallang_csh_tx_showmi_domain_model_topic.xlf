@@ -27,6 +27,9 @@
 			<trans-unit id="annotation_en.description">
 				<source>annotationEn</source>
 			</trans-unit>
+			<trans-unit id="literature.description">
+				<source>literature</source>
+			</trans-unit>
 			<trans-unit id="note.description">
 				<source>note</source>
 			</trans-unit>

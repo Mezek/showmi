@@ -123,6 +123,9 @@
 			<trans-unit id="tx_showmi_domain_model_topic.annotation_en">
 				<source>Annotation En</source>
 			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.literature">
+				<source>Literature</source>
+			</trans-unit>
 			<trans-unit id="tx_showmi_domain_model_topic.note">
 				<source>Note</source>
 			</trans-unit>

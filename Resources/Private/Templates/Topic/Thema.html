@@ -58,6 +58,12 @@
 					</f:if>
 				</div>
 				</f:if>
+				<f:if condition="{thema.literature}">
+				<div class="thema-literature">
+					<strong><f:translate key="tx_showmi_domain_model_topic.literature"/>: </strong><br />
+					<f:format.html>{thema.literature}</f:format.html>
+				</div>
+				</f:if>
 				<f:if condition="{thema.note}">
 				<f:then>
 				<div class="thema-note">

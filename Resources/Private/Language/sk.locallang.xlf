@@ -183,6 +183,10 @@
 				<source>Annotation</source>
 				<target>Anotácia</target>
 			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.literature" xml:space="preserve">
+				<source>References</source>
+				<target>Referencie</target>
+			</trans-unit>
 			<trans-unit id="tx_showmi_domain_model_topic.contact" xml:space="preserve">
 				<source>Contact</source>
 				<target>Kontakt</target>

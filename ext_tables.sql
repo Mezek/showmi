@@ -121,6 +121,7 @@ CREATE TABLE tx_showmi_domain_model_topic (
 	goals_en text,
 	annotation_sk text,
 	annotation_en text,
+	literature text,
 	note varchar(255) DEFAULT '' NOT NULL,
 
 	tstamp int(11) unsigned DEFAULT '0' NOT NULL,

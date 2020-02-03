@@ -17,14 +17,14 @@ return [
             'starttime' => 'starttime',
             'endtime' => 'endtime',
         ],
-        'searchFields' => 'program,supervisor_link,title_sk,title_en,goals_sk,goals_en,annotation_sk,annotation_en,note',
+        'searchFields' => 'program,supervisor_link,title_sk,title_en,goals_sk,goals_en,annotation_sk,annotation_en,literature,note',
         'iconfile' => 'EXT:showmi/Resources/Public/Icons/tx_showmi_dm_topic.png'
     ],
     'interface' => [
-        'showRecordFieldList' => 'sys_language_uid, l10n_parent, l10n_diffsource, hidden, program, supervisor_link, title_sk, title_en, goals_sk, goals_en, annotation_sk, annotation_en, note',
+        'showRecordFieldList' => 'sys_language_uid, l10n_parent, l10n_diffsource, hidden, program, supervisor_link, title_sk, title_en, goals_sk, goals_en, annotation_sk, annotation_en, literature, note',
     ],
     'types' => [
-        '1' => ['showitem' => 'sys_language_uid, l10n_parent, l10n_diffsource, hidden, program, supervisor_link, title_sk, title_en, goals_sk, goals_en, annotation_sk, annotation_en, note, --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.access, starttime, endtime'],
+        '1' => ['showitem' => 'sys_language_uid, l10n_parent, l10n_diffsource, hidden, program, supervisor_link, title_sk, title_en, goals_sk, goals_en, annotation_sk, annotation_en, literature, note, --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.access, starttime, endtime'],
     ],
     'columns' => [
         'sys_language_uid' => [
@@ -184,7 +184,7 @@ return [
                     ],
                 ],
                 'cols' => 40,
-                'rows' => 10,
+                'rows' => 5,
                 'eval' => 'trim',
             ],
             
@@ -202,7 +202,7 @@ return [
                     ],
                 ],
                 'cols' => 40,
-                'rows' => 10,
+                'rows' => 5,
                 'eval' => 'trim',
             ],
             
@@ -239,6 +239,24 @@ return [
                 ],
                 'cols' => 40,
                 'rows' => 15,
+                'eval' => 'trim',
+            ],
+            
+        ],
+        'literature' => [
+            'exclude' => true,
+            'label' => 'LLL:EXT:showmi/Resources/Private/Language/locallang_db.xlf:tx_showmi_domain_model_topic.literature',
+            'config' => [
+                'type' => 'text',
+                'enableRichtext' => true,
+                'richtextConfiguration' => 'full',
+                'fieldControl' => [
+                    'fullScreenRichtext' => [
+                        'disabled' => false,
+                    ],
+                ],
+                'cols' => 40,
+                'rows' => 5,
                 'eval' => 'trim',
             ],
             

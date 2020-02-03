@@ -225,6 +225,31 @@ class TopicTest extends \TYPO3\CMS\Core\Tests\UnitTestCase
     /**
      * @test
      */
+    public function getLiteratureReturnsInitialValueForString()
+    {
+        self::assertSame(
+            '',
+            $this->subject->getLiterature()
+        );
+    }
+
+    /**
+     * @test
+     */
+    public function setLiteratureForStringSetsLiterature()
+    {
+        $this->subject->setLiterature('Conceived at T3CON10');
+
+        self::assertAttributeEquals(
+            'Conceived at T3CON10',
+            'literature',
+            $this->subject
+        );
+    }
+	
+    /**
+     * @test
+     */
     public function getNoteReturnsInitialValueForString()
     {
         self::assertSame(

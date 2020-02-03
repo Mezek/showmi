@@ -74,6 +74,13 @@ class Topic extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     protected $annotationEn = '';
 
     /**
+     * literature
+     *
+     * @var string
+     */
+    protected $literature = '';
+	
+    /**
      * note
      *
      * @var string
@@ -248,6 +255,27 @@ class Topic extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
         $this->annotationEn = $annotationEn;
     }
 
+    /**
+     * Returns the literature
+     *
+     * @return string $literature
+     */
+    public function getLiterature()
+    {
+        return $this->literature;
+    }
+
+    /**
+     * Sets the literature
+     *
+     * @param string $literature
+     * @return void
+     */
+    public function setLiterature($literature)
+    {
+        $this->literature = $literature;
+    }
+	
     /**
      * Returns the note
      *
