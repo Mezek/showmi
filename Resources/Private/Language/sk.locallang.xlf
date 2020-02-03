@@ -167,6 +167,10 @@
 				<source>Goals EN</source>
 				<target>Ciele EN</target>
 			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.goals" xml:space="preserve">
+				<source>Goals</source>
+				<target>Ciele</target>
+			</trans-unit>
 			<trans-unit id="tx_showmi_domain_model_topic.annotation_sk" xml:space="preserve">
 				<source>Annotation SK</source>
 				<target>Anotácia SK</target>

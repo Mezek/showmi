@@ -32,6 +32,20 @@
 			</f:then>
 			</f:if>
 		</f:for>
+				<f:if condition="{thema.goalsSk}">
+				<div class="thema-goals">
+					<strong><f:translate key="tx_showmi_domain_model_topic.goals"/>: </strong><br />
+					<f:if condition="{f:cObject(typoscriptObjectPath: 'lib.language')} == 'sk'">
+					<f:then>
+						<f:format.html>{thema.goalsSk}</f:format.html>
+					</f:then>
+					<f:else>
+						<f:format.html>{thema.goalsEn}</f:format.html>
+					</f:else>
+					</f:if>
+				</div>
+				</f:if>
+				<f:if condition="{thema.annotationSk}">
 				<div class="thema-abstract">
 					<strong><f:translate key="tx_showmi_domain_model_topic.annotation"/>: </strong><br />
 					<f:if condition="{f:cObject(typoscriptObjectPath: 'lib.language')} == 'sk'">
@@ -43,6 +57,7 @@
 					</f:else>
 					</f:if>
 				</div>
+				</f:if>
 				<f:if condition="{thema.note}">
 				<f:then>
 				<div class="thema-note">
