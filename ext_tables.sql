@@ -117,6 +117,8 @@ CREATE TABLE tx_showmi_domain_model_topic (
 	supervisor_link varchar(255) DEFAULT '' NOT NULL,
 	title_sk varchar(255) DEFAULT '' NOT NULL,
 	title_en varchar(255) DEFAULT '' NOT NULL,
+	goals_sk text,
+	goals_en text,
 	annotation_sk text,
 	annotation_en text,
 	note varchar(255) DEFAULT '' NOT NULL,

@@ -159,6 +159,14 @@
 				<source>Title of PhD theme</source>
 				<target>Názov témy</target>
 			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.goals_sk" xml:space="preserve">
+				<source>Goals SK</source>
+				<target>Ciele SK</target>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.goals_en" xml:space="preserve">
+				<source>Goals EN</source>
+				<target>Ciele EN</target>
+			</trans-unit>
 			<trans-unit id="tx_showmi_domain_model_topic.annotation_sk" xml:space="preserve">
 				<source>Annotation SK</source>
 				<target>Anotácia SK</target>

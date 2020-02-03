@@ -15,6 +15,12 @@
 			<trans-unit id="title_en.description">
 				<source>titleEn</source>
 			</trans-unit>
+			<trans-unit id="goals_sk.description">
+				<source>goalsSk</source>
+			</trans-unit>
+			<trans-unit id="goals_en.description">
+				<source>goalsEn</source>
+			</trans-unit>
 			<trans-unit id="annotation_sk.description">
 				<source>annotationSk</source>
 			</trans-unit>

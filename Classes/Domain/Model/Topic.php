@@ -46,6 +46,20 @@ class Topic extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     protected $titleEn = '';
 
     /**
+     * goalsSk
+     *
+     * @var string
+     */
+    protected $goalsSk = '';
+
+    /**
+     * goalsEn
+     *
+     * @var string
+     */
+    protected $goalsEn = '';
+
+    /**
      * annotationSk
      *
      * @var string
@@ -148,6 +162,48 @@ class Topic extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     public function setTitleEn($titleEn)
     {
         $this->titleEn = $titleEn;
+    }
+
+    /**
+     * Returns the goalsSk
+     *
+     * @return string $goalsSk
+     */
+    public function getGoalsSk()
+    {
+        return $this->goalsSk;
+    }
+
+    /**
+     * Sets the goalsSk
+     *
+     * @param string $goalsSk
+     * @return void
+     */
+    public function setGoalsSk($goalsSk)
+    {
+        $this->goalsSk = $goalsSk;
+    }
+
+    /**
+     * Returns the goalsEn
+     *
+     * @return string $goalsEn
+     */
+    public function getGoalsEn()
+    {
+        return $this->goalsEn;
+    }
+
+    /**
+     * Sets the goalsEn
+     *
+     * @param string $goalsEn
+     * @return void
+     */
+    public function setGoalsEn($goalsEn)
+    {
+        $this->goalsEn = $goalsEn;
     }
 
     /**

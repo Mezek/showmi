@@ -120,6 +120,12 @@
 			<trans-unit id="tx_showmi_domain_model_topic.title_theme" xml:space="preserve">
 				<source>Title of PhD theme</source>
 			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.goals_sk" xml:space="preserve">
+				<source>Goals SK</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.goals_en" xml:space="preserve">
+				<source>Goals EN</source>
+			</trans-unit>
 			<trans-unit id="tx_showmi_domain_model_topic.annotation_sk" xml:space="preserve">
 				<source>Annotation SK</source>
 			</trans-unit>

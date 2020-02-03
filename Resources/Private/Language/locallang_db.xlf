@@ -111,6 +111,12 @@
 			<trans-unit id="tx_showmi_domain_model_topic.title_en">
 				<source>Title En</source>
 			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.goals_sk">
+				<source>Goals Sk</source>
+			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_topic.goals_en">
+				<source>Goals En</source>
+			</trans-unit>
 			<trans-unit id="tx_showmi_domain_model_topic.annotation_sk">
 				<source>Annotation Sk</source>
 			</trans-unit>

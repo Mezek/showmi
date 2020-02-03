@@ -125,6 +125,56 @@ class TopicTest extends \TYPO3\CMS\Core\Tests\UnitTestCase
     /**
      * @test
      */
+    public function getGoalsSkReturnsInitialValueForString()
+    {
+        self::assertSame(
+            '',
+            $this->subject->getGoalsSk()
+        );
+    }
+
+    /**
+     * @test
+     */
+    public function setGoalsSkForStringSetsGoalsSk()
+    {
+        $this->subject->setGoalsSk('Conceived at T3CON10');
+
+        self::assertAttributeEquals(
+            'Conceived at T3CON10',
+            'goalsSk',
+            $this->subject
+        );
+    }
+
+    /**
+     * @test
+     */
+    public function getGoalsEnReturnsInitialValueForString()
+    {
+        self::assertSame(
+            '',
+            $this->subject->getGoalsEn()
+        );
+    }
+
+    /**
+     * @test
+     */
+    public function setGoalsEnForStringSetsGoalsEn()
+    {
+        $this->subject->setGoalsEn('Conceived at T3CON10');
+
+        self::assertAttributeEquals(
+            'Conceived at T3CON10',
+            'goalsEn',
+            $this->subject
+        );
+    }
+
+    /**
+     * @test
+     */
     public function getAnnotationSkReturnsInitialValueForString()
     {
         self::assertSame(
