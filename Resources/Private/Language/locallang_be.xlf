@@ -69,6 +69,12 @@
 			<trans-unit id="flexforms_sas.department.e" xml:space="preserve">
 				<source>Emeritní pracovníci</source>
 			</trans-unit>
+			<trans-unit id="flexforms_sas.department.hs" xml:space="preserve">
+				<source>Hospodárska správa</source>
+			</trans-unit>
+			<trans-unit id="flexforms_sas.department.left" xml:space="preserve">
+				<source>Odídení pracovníci</source>
+			</trans-unit>
 			<trans-unit id="flexforms_tab.additional" xml:space="preserve">
 				<source>Additional</source>
 			</trans-unit>

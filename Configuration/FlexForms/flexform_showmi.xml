@@ -123,6 +123,14 @@
 										<numIndex index="0">LLL:EXT:showmi/Resources/Private/Language/locallang_be.xlf:flexforms_sas.department.e</numIndex>
 										<numIndex index="1">E</numIndex>
 									</numIndex>
+									<numIndex index="8" type="array">
+										<numIndex index="0">LLL:EXT:showmi/Resources/Private/Language/locallang_be.xlf:flexforms_sas.department.hs</numIndex>
+										<numIndex index="1">HS</numIndex>
+									</numIndex>
+									<numIndex index="9" type="array">
+										<numIndex index="0">LLL:EXT:showmi/Resources/Private/Language/locallang_be.xlf:flexforms_sas.department.left</numIndex>
+										<numIndex index="1">left</numIndex>
+									</numIndex>
 								</items>
 							</config>
 						</TCEforms>
