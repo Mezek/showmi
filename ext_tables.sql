@@ -23,7 +23,6 @@ CREATE TABLE tx_showmi_domain_model_activity (
 	hidden smallint(5) unsigned DEFAULT '0' NOT NULL,
 	starttime int(11) unsigned DEFAULT '0' NOT NULL,
 	endtime int(11) unsigned DEFAULT '0' NOT NULL,
-	sorting int(11) unsigned NOT NULL DEFAULT '0',
 
 	t3ver_oid int(11) DEFAULT '0' NOT NULL,
 	t3ver_id int(11) DEFAULT '0' NOT NULL,
@@ -41,7 +40,7 @@ CREATE TABLE tx_showmi_domain_model_activity (
 	l10n_state text,
 
 	PRIMARY KEY (uid),
-	KEY parent (pid,sorting),
+	KEY parent (pid),
 	KEY t3ver_oid (t3ver_oid,t3ver_wsid),
 	KEY language (l10n_parent,sys_language_uid)
 
@@ -132,6 +131,7 @@ CREATE TABLE tx_showmi_domain_model_topic (
 	hidden smallint(5) unsigned DEFAULT '0' NOT NULL,
 	starttime int(11) unsigned DEFAULT '0' NOT NULL,
 	endtime int(11) unsigned DEFAULT '0' NOT NULL,
+	sorting int(11) unsigned NOT NULL DEFAULT '0',
 
 	t3ver_oid int(11) DEFAULT '0' NOT NULL,
 	t3ver_id int(11) DEFAULT '0' NOT NULL,
@@ -149,7 +149,7 @@ CREATE TABLE tx_showmi_domain_model_topic (
 	l10n_state text,
 
 	PRIMARY KEY (uid),
-	KEY parent (pid),
+	KEY parent (pid,sorting),
 	KEY t3ver_oid (t3ver_oid,t3ver_wsid),
 	KEY language (l10n_parent,sys_language_uid)
 
