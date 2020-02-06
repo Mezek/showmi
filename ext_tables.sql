@@ -114,7 +114,7 @@ CREATE TABLE tx_showmi_domain_model_topic (
 	pid int(11) DEFAULT '0' NOT NULL,
 
 	program varchar(255) DEFAULT '' NOT NULL,
-	supervisor_link varchar(255) DEFAULT '' NOT NULL,
+	supervisor_link int(11) NOT NULL,
 	title_sk varchar(255) DEFAULT '' NOT NULL,
 	title_en varchar(255) DEFAULT '' NOT NULL,
 	goals_sk text,
