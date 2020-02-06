@@ -10,8 +10,8 @@
  */
 function changeClass(uid)
 {
-	//var c = 'th' + uid;
-	var c = 'th1';
+	var c = 'th' + uid;
+	//var c = 'th1';
 	var plus = 'thema-toggle-plus';
 	var minus = 'thema-toggle-minus';
 	var x = document.getElementById(c);
@@ -36,4 +36,5 @@ function toggleShowHide(uid)
 	} else {
 		x.style.display = "none";
 	}
+	changeClass(uid);
 }

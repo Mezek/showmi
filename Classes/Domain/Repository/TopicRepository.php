@@ -15,7 +15,8 @@ class TopicRepository extends Repository
      * @var array
      */
 	protected $defaultOrderings = [
-		'program' => \TYPO3\CMS\Extbase\Persistence\QueryInterface::ORDER_ASCENDING
+		'program' => \TYPO3\CMS\Extbase\Persistence\QueryInterface::ORDER_ASCENDING,
+		'supervisor_link' => \TYPO3\CMS\Extbase\Persistence\QueryInterface::ORDER_ASCENDING
 	];
 	
 	/**
