@@ -3,6 +3,7 @@ return [
     'ctrl' => [
         'title' => 'LLL:EXT:showmi/Resources/Private/Language/locallang_db.xlf:tx_showmi_domain_model_activity',
         'label' => 'title',
+        'sortby' => 'sorting',
         'tstamp' => 'tstamp',
         'crdate' => 'crdate',
         'cruser_id' => 'cruser_id',
@@ -151,7 +152,7 @@ return [
         ],
         'author' => [
             'exclude' => true,
-            'label' => 'Name + surname of author',
+            'label' => 'LLL:EXT:showmi/Resources/Private/Language/locallang_db.xlf:tx_showmi_domain_model_activity.author_name',
             'config' => [
                 'type' => 'input',
                 'size' => 30,

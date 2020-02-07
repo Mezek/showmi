@@ -18,11 +18,14 @@
 			<trans-unit id="tx_showmi_domain_model_activity.author">
 				<source>Author</source>
 			</trans-unit>
+			<trans-unit id="tx_showmi_domain_model_activity.author_name">
+				<source>Name + Surname of contributed author (or speaker, performer) </source>
+			</trans-unit>
 			<trans-unit id="tx_showmi_domain_model_activity.type">
 				<source>Type (choose from the list)</source>
 			</trans-unit>
 			<trans-unit id="tx_showmi_domain_model_activity.place">
-				<source>Place of publishing (news title, RTVS)</source>
+				<source>Name of event or news title (e.g., Noc výskumníkov, TA3, Youtube)</source>
 			</trans-unit>
 			<trans-unit id="tx_showmi_domain_model_activity.title">
 				<source>Title of contribution</source>

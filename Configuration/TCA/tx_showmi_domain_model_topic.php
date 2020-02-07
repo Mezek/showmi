@@ -3,8 +3,8 @@ return [
     'ctrl' => [
         'title' => 'LLL:EXT:showmi/Resources/Private/Language/locallang_db.xlf:tx_showmi_domain_model_topic',
         'label' => 'title_sk',
-		'label_alt' => 'program',
-		'sortby' => 'sorting',
+        'label_alt' => 'program',
+        'sortby' => 'sorting',
         'tstamp' => 'tstamp',
         'crdate' => 'crdate',
         'cruser_id' => 'cruser_id',

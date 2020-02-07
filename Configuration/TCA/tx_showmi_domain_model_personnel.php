@@ -3,6 +3,7 @@ return [
     'ctrl' => [
         'title' => 'LLL:EXT:showmi/Resources/Private/Language/locallang_db.xlf:tx_showmi_domain_model_personnel',
         'label' => 'surname',
+        'sortby' => 'sorting',
         'tstamp' => 'tstamp',
         'crdate' => 'crdate',
         'cruser_id' => 'cruser_id',
