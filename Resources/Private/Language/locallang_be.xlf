@@ -102,6 +102,9 @@
 			<trans-unit id="flexforms_study.5.2.48" xml:space="preserve">
 				<source>Fyzikálne inžinierstvo (5.2.48)</source>
 			</trans-unit>
+			<trans-unit id="flexforms_study.N.Ch" xml:space="preserve">
+				<source>Jadrová chémia</source>
+			</trans-unit>
 			<trans-unit id="flexforms_study.MSc" xml:space="preserve">
 				<source>Magisterská téma (MSc)</source>
 			</trans-unit>

@@ -229,14 +229,18 @@
 										<numIndex index="1">5.2.48</numIndex>
 									</numIndex>
 									<numIndex index="6" type="array">
+										<numIndex index="0">LLL:EXT:showmi/Resources/Private/Language/locallang_be.xlf:flexforms_study.N.Ch</numIndex>
+										<numIndex index="1">N.Ch</numIndex>
+									</numIndex>
+									<numIndex index="7" type="array">
 										<numIndex index="0">LLL:EXT:showmi/Resources/Private/Language/locallang_be.xlf:flexforms_study.MSc</numIndex>
 										<numIndex index="1">MSc</numIndex>
 									</numIndex>
-									<numIndex index="7" type="array">
+									<numIndex index="8" type="array">
 										<numIndex index="0">LLL:EXT:showmi/Resources/Private/Language/locallang_be.xlf:flexforms_study.Bc</numIndex>
 										<numIndex index="1">Bc</numIndex>
 									</numIndex>
-									<numIndex index="8" type="array">
+									<numIndex index="9" type="array">
 										<numIndex index="0">LLL:EXT:showmi/Resources/Private/Language/locallang_be.xlf:flexforms_study.SVOC</numIndex>
 										<numIndex index="1">SVOC</numIndex>
 									</numIndex>

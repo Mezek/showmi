@@ -128,6 +128,7 @@ return [
 					['LLL:EXT:showmi/Resources/Private/Language/locallang_be.xlf:flexforms_study.5.2.48', '5.2.48'],
 					['LLL:EXT:showmi/Resources/Private/Language/locallang_be.xlf:flexforms_study.4.1.5', '4.1.5'],
 					['LLL:EXT:showmi/Resources/Private/Language/locallang_be.xlf:flexforms_study.4.1.4', '4.1.4'],
+					['LLL:EXT:showmi/Resources/Private/Language/locallang_be.xlf:flexforms_study.N.Ch', 'N.Ch'],
 					['LLL:EXT:showmi/Resources/Private/Language/locallang_be.xlf:flexforms_study.4.1.2', '4.1.2'],
 					['LLL:EXT:showmi/Resources/Private/Language/locallang_be.xlf:flexforms_study.MSc', 'MSc'],
 					['LLL:EXT:showmi/Resources/Private/Language/locallang_be.xlf:flexforms_study.Bc', 'Bc'],

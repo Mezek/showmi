@@ -284,6 +284,7 @@ return [
 					['Fyzika kondenzovaných látok a akustika', 'Fyzika kondenzovaných látok a akustika'],
 					['Fyzikálne inžinierstvo', 'Fyzikálne inžinierstvo'],
 					['Jadrová a subjadrová fyzika', 'Jadrová a subjadrová fyzika'],
+					['Jadrová chémia', 'Jadrová chémia'],
 					['Kvantová elektronika a optika a optická spektroskopia', 'Kvantová elektronika a optika a optická spektroskopia'],
 					['Teoretická fyzika a matematická fyzika', 'Teoretická fyzika a matematická fyzika'],
 				],
